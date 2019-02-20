@@ -4,6 +4,13 @@ layout: default
 section: main
 ---
 
+### v3.2.1 2019-02-20
+> from: https://github.com/Stuk/jszip/pull/532
+
+* Replace core-js with the much smaller set-immediate-shim.
+* Remove es6-promise as it is unused.
+* Update lie and readable-stream.
+
 ### v3.1.5 2017-11-09
 - Fix IE11 memory leak (see [#429](https://github.com/Stuk/jszip/pull/429)).
 - Handle 2 nodejs deprecations (see [#459](https://github.com/Stuk/jszip/pull/459)).
